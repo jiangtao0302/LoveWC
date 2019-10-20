@@ -11,6 +11,9 @@ public class Test {
 		String[] arr = str.split(" ");
 		Integer[] arr2 = new Integer[5];
 		int sum = 0;// 求和初始化
+		/**例如输入最大数为4位*
+		   计算数的“重量”
+		*/
 		for(int i=0; i<arr.length;i++){
 //			System.out.println(arr[i]);
 			if(arr[i].length() == 1){
@@ -27,6 +30,10 @@ public class Test {
 			arr2[i] = sum;
 		}
 //		System.out.println(arr2[2]);
+		/**
+		* 冒泡排序
+		*
+		*/
 		for(int i=0;i<arr2.length-1;i++){
 			for(int j=0;j<arr2.length-1-i;j++){
 				if(arr2[j]>arr2[j+1]){
