@@ -1,4 +1,8 @@
-
+/**
+*Ajax 中result的格式与data.json的格式一致，可以用JsonArray进行处理
+*main4为div的id
+*
+**/
 function dataShow(){
 		var url='<%=path%>/bigDataCon/getdata.it';
 		// 基于准备好的dom，初始化echarts实例
