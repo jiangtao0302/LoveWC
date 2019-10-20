@@ -32,7 +32,6 @@ public class Test {
 //		System.out.println(arr2[2]);
 		/**
 		* 冒泡排序
-		*
 		*/
 		for(int i=0;i<arr2.length-1;i++){
 			for(int j=0;j<arr2.length-1-i;j++){
